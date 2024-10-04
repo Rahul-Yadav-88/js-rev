@@ -25,3 +25,9 @@ const soppingCart= [
 
 const Total = soppingCart.reduce((acc, item)=>acc+item.price,0)
 console.log(Total)
+
+
+
+const myarry = [2,4,5]
+const sum = myarry.reduce((acc, item)=>acc+item, 0)
+console.log(sum)
