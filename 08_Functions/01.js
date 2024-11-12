@@ -12,3 +12,8 @@ function greet() {
 }
 
 setTimeout(greet, 3*1000)
+
+function greets() {
+    console.log('hlo you')
+}
+setInterval(greets, 3*1000)

@@ -51,19 +51,35 @@
 
 
 // write a program to select 
-const users = [{firstname : "Rahul",
-    gender : 'Male'
-},{
-    firstname : 'gaurav',
-    gender: 'female'
-},
-{
-    firstname : 'sunita',
-    gender : 'female'
-}]
-for (let i = 0; i < users.length; i++) {
-    if (users[i] ["gender"]=="female") {  
-        console.log(users[i] ['firstname'])
-    }
+// const users = [{firstname : "Rahul",
+//     gender : 'Male'
+// },{
+//     firstname : 'gaurav',
+//     gender: 'female'
+// },
+// {
+//     firstname : 'sunita',
+//     gender : 'female'
+// }]
+// for (let i = 0; i < users.length; i++) {
+//     if (users[i] ["gender"]=="female") {  
+//         console.log(users[i] ['firstname'])
+//     }
     
-}
+// }
+
+
+
+// make a counter which countdowns from 30 to 0
+
+let count = 30
+const countdown = setInterval(()=>{
+    console.log(count)
+    count --
+
+    if (count < 0) {
+        clearInterval(countdown)
+        console.log('countdown finish')
+    }
+},1000)
+
