@@ -62,7 +62,7 @@ const users = [{firstname : "Rahul",
     gender : 'female'
 }]
 for (let i = 0; i < users.length; i++) {
-    if (users[i] ["gender"]=="female") {
+    if (users[i] ["gender"]=="female") {  
         console.log(users[i] ['firstname'])
     }
     
